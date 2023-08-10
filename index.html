@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="estilo.css">
+        <title>DV Dev en proceso</title>
+    </head>
+    <body>
+        <!-- SECCION I N I C I O -->
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1>/DV/</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                                <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                                <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                                <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- Icono del menu responsive -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+
+                        <div class="redes">
+                            <a href="https://github.com/DiegoVX" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.facebook.com/DiegoCV180401" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/diego-vergara-castillo-0a585625b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Bienvenidos</p>
+                    <h2>Soy <span>Diego Vergara</span>, Tecnico en soporte y mantenimiento.</h2>
+                    <p class="descripcion">Tecnico en soporte y mantenimiento de equipo de computo, este es mi portafolio</p>
+                    <a href="/doc/CV_DiegoVergara.pdf" target="_blank">Ir a CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION S O B R E M I -->
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="img/My project-1 (1).jpg"alt="">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre Mi</p>
+                <h2>Hola, Soy <span>Diego Vergara</span> </h2>
+                <h3>Tecnico en sop. y mtto.</h3>
+                <p>Soy alguien al que le gusta aprender cosas nuevas, es por eso que, no solo me quede con la carrera tecnica, si no que, estoy estudiando la carrera de ingenieria en sistemas computacionales, aprendiendo un poco de desarrollo de paginas web con html, css, js y react, programacion basica-intermedia de python, java, c++</p>
+            </div>
+        </section>
+
+        <!-- SECCION S E R V I C I O S -->
+        <section id="servicios">
+            <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                    <h4>Diseño de Sitios Web</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>Responsive</li>
+                    </ul>
+                    <p>Diseño de sitios web informativos o para venta, con HTML, CSS Y JS.</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                    <h4>Porgramación PHP</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Querys</li>
+                        <li>Modelado E-R</li>
+                        <li>Estructura de la BD</li>
+                    </ul>
+                    <p>Manejo, creacion, modelado de bases de datos, querys y navegacion interna</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                    <h4>Posicionamiento SEO</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>Encuentro los mejores alojamientos para el sitio web y manejo del hosting con dominio</p>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-database"></i></span>
+                    <h4>Alojamiento de Sitios</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>BD</li>
+                        <li>Controlador</li>
+                        <li>Querys</li>
+                    </ul>
+                    <p>Manejo del almacenamiento local de la base de datos, el CRUD en bases de datos en hosting</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                    <h4>Marketing digital</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Canvas</li>
+                        <li>Google Analytics</li>
+                        <li>Bit.ly</li>
+                    </ul>
+                    <p>Manejo intermedio de canvas bussines y marketing hub</p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                    <h4>Consultor Externo</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Soporte</li>
+                        <li>Distancia/Presencial</li>
+                    </ul>
+                    <p>Soporte tecnico a distancia, presencial, manejo de redes y cableado externos</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION H A B I L I D A D E S -->
+        <div class="contenedor-skills" id="skills">
+            <h3>HABILIDADES </h3>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Html & Css</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="html"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Javascript</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="js"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Bases de Datos</p>
+                    <span class="porcentaje">90%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="bd"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p> <span class="lista"> </span>Java</p>
+                    <span class="porcentaje">85%</span>
+                </div>
+
+                <div class="barra">
+                    <div class="" id="ps"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCION PORTAFOLIO -->
+        <section id="portfolio">
+            <h3 class="titulo-seccion">Mis Proyectos</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto1 (2).jpg" alt="">
+                    <div class="info">
+                        <h4>Sistema con de Panaderia con HTML, CSS, JS y PHP</h4>
+                        <p>Diseño Web y PHP</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto2.jpg" alt="">
+                    <div class="info">
+                        <h4>Sitio web muestra sobre tecnologia</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto2 (2).jpg" alt="">
+                    <div class="info">
+                        <h4>Codificador con HTML y JS</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/proyecto3 (2).jpg" alt="">
+                    <div class="info">
+                        <h4>Lenguaje de señas basico</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/insignia.jpeg" alt="">
+                    <div class="info">
+                        <h4>Insignia Oracle HTML, CSS y JS</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/insignia1.jpeg" alt="">
+                    <div class="info">
+                        <h4>Insignia Oracle codificador con HTML y JS</h4>
+                        <p>Codificador</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCTION C O N T A C T O -->
+        <section id="contacto">
+            <h3 class="titulo-seccion">Contactanos ahora</h3>
+            <div class="contenedor-form">
+                <form action="">
+                    <div class="fila mitad">
+                        <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                        <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                    </div>
+                    <div class="fila">
+                        <input type="text" placeholder="Tema..." class="input-full">
+                    </div>
+                    <div class="fila">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
+        </section>
+
+        <!-- SECCION FOOTER -->
+        <footer>
+            <p>Todos los derechos reservados &copy; DVC - 2023</p>
+            <div class="redes">
+                <a href="https://github.com/DiegoVX" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/DiegoCV180401" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/diego-vergara-castillo-0a585625b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
